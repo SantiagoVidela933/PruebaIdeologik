@@ -1,0 +1,219 @@
+html, *{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+   
+}
+body{
+    background-color: rgb(18, 18, 18);
+    height: 100%;
+    margin: 0 154px;
+    width: 1040px;
+    min-width: 1040px;
+    border: 0px;
+    padding: 0px;
+}
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    height: 70px;
+    padding-top: 10px;
+}
+.navbar{
+    display:flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.menu-list{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1rem;
+    /* background: linear-gradient(to right, rgb(0, 204, 255), rgb(153, 51, 255) 31%,
+     rgb(230, 70, 182) 52%, rgb(255, 249, 170) 77%, rgb(0, 255, 153), rgb(0, 204, 255)) 0% 50% / 200% 50%; */
+    cursor: pointer;
+    list-style: none;
+}
+.menu-list_li{
+    list-style: none;
+    display: inline-block;
+    border-right: 5px solid rgb(18, 18, 18);
+    
+}
+.menu-list-li_a{
+    padding: 5px 1rem;
+    text-decoration: none;
+    border-bottom:5px solid rgb(0, 255, 153);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 13px;
+}
+.brand{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-weight: bold;
+}
+.brand-img{
+    width: 35px;
+    height: 35px;
+}
+.upload-create{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+.upload-create_a{
+    margin: 0 2px;
+    padding: 8.5px 16px;
+    background-color: #6157FF;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+
+}
+
+
+.container-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 157px;
+    margin:  0 5px;
+    background-color: ;
+    font-weight: bold;
+}
+.container-login_a{
+    color: rgb(255, 255, 255);
+    padding: 8px 1.8rem;
+    background-color: rgb(54, 53, 53);
+    text-decoration: none;
+}
+.userIcon{
+    color: rgb(255,255,255);  
+    padding: 9px 16px;
+    background-color: rgb(89, 86, 86);
+}
+
+
+
+
+
+
+
+.search{
+    display: flex;
+    justify-content: center;
+}
+.search-form{
+    margin: 0;
+    padding: 0;
+}
+.search-form input{
+    width: 988px;
+    height: 52px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+}
+.search-form button{
+    border: none;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to right, rgb(0, 204, 255), rgb(153, 51, 255) 31%,
+     rgb(230, 70, 182) 52%, rgb(255, 249, 170) 77%, rgb(0, 255, 153), rgb(0, 204, 255)) 0% 50% / 200% 50%;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    padding: 1.2rem;
+}
+
+.container-ansSearch{
+    display: flex;
+    align-items: center;
+    justify-content: space-around   ;
+    width: 100%;
+    margin: 15px 0 15px;
+    color: rgb(255, 255, 255);
+}
+.result-search{
+    margin-right: 6rem;
+}
+.result-search_title{
+    
+}
+.result-search_span{
+    font-size: 14px;
+
+}
+
+
+.div-spanSearch{
+    display: inline-block;
+}
+.spanSearch_s{
+    padding: 12px 1rem;
+    margin: 5px;
+    border-radius: 1.5rem;
+    background-color: rgb(54, 53, 53);
+    ;
+}
+.spanSearch_a{ 
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-decoration: none;
+}
+.spanSearch_a:hover{
+    color: rgb(0, 255, 187);
+}
+
+.giphy-clips{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.clips-head{
+    width: 1080px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.clips-head_title h2{
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+}
+
+.clips-head_button i{
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    margin: 12px 0;
+    padding: 6px 15px;
+}
+.button1{
+    background-color: rgb(39, 39, 39);
+}
+.button2{
+    background-color: rgb(89, 86, 86);
+}
+.carousel-videos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1100px;
+}
+.carousel-videos_vid{
+    border-radius: .2rem;
+    height: 149px;
+    object-fit: contain;
+}
