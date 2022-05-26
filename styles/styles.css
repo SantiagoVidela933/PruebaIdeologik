@@ -7,8 +7,6 @@ body{
     background-color: rgb(18, 18, 18);
     /* overflow-x: hidden;
     scroll-behavior: smooth; */
-    width: 1040px;
-    margin: 0 154px;
 }
 /* Encabezado */
 .header{
@@ -108,12 +106,14 @@ body{
 }
 .search-form_input{
     width: 94%;
-    margin-right: -5px;
     height: 52px;
     font-size: 18px;
     letter-spacing: 1px;
     border: none;
     background-color: rgb(255, 255, 255);
+}
+.search-form_input::placeholder{
+    padding-left: 1rem;
 }
 .search-form_button{
     width: 6%;
@@ -122,7 +122,6 @@ body{
     position: relative;
     background-size: 400%;
     animation: change 3s ease-in-out infinite;
-
 }
 @keyframes change {
     0%{
@@ -137,7 +136,7 @@ body{
 }
 .search-form_button a{
     color: rgb(255, 255, 255);
-    font-size: 1.7rem;
+    font-size: 1rem;
     text-decoration: none;
 }
 .container-ansSearch{
