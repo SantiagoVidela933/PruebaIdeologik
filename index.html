@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/mQuery.css">
     <script src="https://kit.fontawesome.com/5df49ce783.js" crossorigin="anonymous"></script>
     <title>Avengers GIFs</title>
 </head>
@@ -109,7 +110,7 @@
         </div>
         <div class="galery">
             <div class="galery-head">
-                <div class="galery-head_responsive hidden">
+                <div class="galery-head_responsive">
                     <h2>All The GIFs</h2>
                 </div>
                 <div class="galery-head-start">
@@ -120,31 +121,85 @@
                     <h5 class="galery-head-end_h5">Sort:<span>Relevant</span>Newest</h5>
                 </div>
             </div>
-            <div class="galery-gifs">
+            <!-- <div class="galery-gifs">
+                
+                
+            </div> -->
+            <div class="masonry">
+                <div class="item">
                     <img class="grid-gif wide" src="https://media3.giphy.com/media/3oxHQpJKupQXsmU1JS/100.webp?cid=ecf05e47dr493u9mqe18xyp0qxqgwuypny5lx6dbx3uy8ear&rid=100.webp&ct=g" alt="">
-                    <img class="grid-gif" src="https://media2.giphy.com/media/rj12FejFUysTK/giphy.webp?cid=ecf05e47dr493u9mqe18xyp0qxqgwuypny5lx6dbx3uy8ear&rid=giphy.webp&ct=g" alt="">
+                </div>
+                <div class="item">
                     <img class="grid-gif" src="https://media3.giphy.com/media/PpeGK6edBWAxi/giphy.webp?cid=ecf05e47wkggx8k7fb00btays4je1hfowkgv7h00rcewi6ln&rid=giphy.webp&ct=g" alt="">
+                </div>
+                <div class="item">
+                    <img class="grid-gif" src="https://media2.giphy.com/media/rj12FejFUysTK/giphy.webp?cid=ecf05e47dr493u9mqe18xyp0qxqgwuypny5lx6dbx3uy8ear&rid=giphy.webp&ct=g" alt="">        
+                </div>
+                <div class="item">
                     <img class="grid-gif" src="https://media2.giphy.com/media/8xomIW1DRelmo/giphy.webp?cid=ecf05e47ys5tk9n8iffkjhx97xa6doprsaomd3g6068fsej5&rid=giphy.webp&ct=g" alt="">
+                </div>
+                <div class="item">
                     <img class="grid-gif" src="https://media3.giphy.com/media/Ajyi28ZdneUz6/200w.webp?cid=ecf05e47dh1zz5e588t9zndyhkolsdpe0nxetj8kinh3izo1&rid=200w.webp&ct=g" alt="">
+                </div>
+                <div class="item">
                     <img class="grid-gif" src="https://media0.giphy.com/media/1lk1IcVgqPLkA/giphy.webp?cid=ecf05e47ys5tk9n8iffkjhx97xa6doprsaomd3g6068fsej5&rid=giphy.webp&ct=g" alt="">
+                </div>
+                <div class="item">
                     <img class="grid-gif wide" src="https://media0.giphy.com/media/N97kHQgG33rUI/200w.webp?cid=ecf05e47ys5tk9n8iffkjhx97xa6doprsaomd3g6068fsej5&rid=200w.webp&ct=g" alt="">
+                </div>
+                <div class="item">
                     <img class="grid-gif" src="https://media3.giphy.com/media/3GnKKEw2v7bXi/giphy.webp?cid=ecf05e47ys5tk9n8iffkjhx97xa6doprsaomd3g6068fsej5&rid=giphy.webp&ct=g" alt="">
+                    
+                </div>
+                <div class="item">
                     <img class="grid-gif" src="https://media1.giphy.com/media/ZTKsQ1W2dqeoU/200w.webp?cid=ecf05e47ys5tk9n8iffkjhx97xa6doprsaomd3g6068fsej5&rid=200w.webp&ct=g" alt="">
+                    
+                </div>
+                <div class="item">
                     <img class="grid-gif" src="https://media2.giphy.com/media/ckeHl52mNtoq87veET/200w.webp?cid=ecf05e47ys5tk9n8iffkjhx97xa6doprsaomd3g6068fsej5&rid=200w.webp&ct=g" alt="">
+                    
+                </div>
+                <div class="item">
                     <img class="grid-gif" src="https://media4.giphy.com/media/N8X0zLaoVR0NW/giphy.webp?cid=ecf05e47ys5tk9n8iffkjhx97xa6doprsaomd3g6068fsej5&rid=giphy.webp&ct=g" alt="">
+                    
+                </div>
+                <div class="item">
                     <img class="grid-gif" src="https://media3.giphy.com/media/D3l1DgR5ah5hm/200w.webp?cid=ecf05e47dh1zz5e588t9zndyhkolsdpe0nxetj8kinh3izo1&rid=200w.webp&ct=g" alt="">
+                    
+                </div>
+                <div class="item">
                     <img class="grid-gif" src="https://media3.giphy.com/media/zWAZk14XOAOgU/200.webp?cid=ecf05e47wkggx8k7fb00btays4je1hfowkgv7h00rcewi6ln&rid=200.webp&ct=g" alt="">
+                    
+                </div>
+                <div class="item">
                     <img class="grid-gif" src="https://media2.giphy.com/media/hvdL7Xcmperfi/200w.webp?cid=ecf05e47wkggx8k7fb00btays4je1hfowkgv7h00rcewi6ln&rid=200w.webp&ct=g" alt="">
+                    
+                </div>
+                <div class="item">
                     <img class="grid-gif" src="https://media3.giphy.com/media/3oKIPaSkwgwHz5wpZC/200w.webp?cid=ecf05e47hntqssslcqwi4xtshgzg3k5ziyps4tjjhqu4patz&rid=200w.webp&ct=g" alt="">
+                    
+                </div>
+                <div class="item">
                     <img class="grid-gif" src="https://media3.giphy.com/media/1fM9ePvlVcqZ2/200w.webp?cid=ecf05e47hntqssslcqwi4xtshgzg3k5ziyps4tjjhqu4patz&rid=200w.webp&ct=g" alt="">
+                    
+                </div>
+                <div class="item">
                     <img class="grid-gif wide" src="https://media3.giphy.com/media/3oxHQA5tQmZmY4LOwM/100.webp?cid=ecf05e47hntqssslcqwi4xtshgzg3k5ziyps4tjjhqu4patz&rid=100.webp&ct=g" alt="">
+                    
+                </div>
+                <div class="item">
                     <img class="grid-gif" src="https://media0.giphy.com/media/8ki6aWRvqs7fy/200w.webp?cid=ecf05e47hntqssslcqwi4xtshgzg3k5ziyps4tjjhqu4patz&rid=200w.webp&ct=g" alt="">
+                    
+                </div>
+                <div class="item">
                     <img class="grid-gif wide" src="https://media3.giphy.com/media/3KiQJSHYoWIyA/200w.webp?cid=ecf05e47hntqssslcqwi4xtshgzg3k5ziyps4tjjhqu4patz&rid=200w.webp&ct=g" alt="">
+        
+                </div>
+                <div class="item">
                     <img class="grid-gif" src="https://media4.giphy.com/media/Mc7glzjN2Ukj4KGvCU/200.webp?cid=ecf05e47hntqssslcqwi4xtshgzg3k5ziyps4tjjhqu4patz&rid=200.webp&ct=g" alt="">
+                </div>
             </div>
         </div>
     </div>
-    
-    
 </body>
 </html>
