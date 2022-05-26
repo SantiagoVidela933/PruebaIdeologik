@@ -1,3 +1,20 @@
+@media screen and (max-width: 375px){
+    body{
+        width: 100%;
+        margin: 0;
+    }
+    .container-ansSearch{
+
+    }
+    
+    .imagen3{
+        display: none;
+    }
+    .span3{
+        display: none;
+    }
+}
+
 @media screen and (max-width: 570px){
 
     .wrapper{
@@ -151,7 +168,10 @@
     .galery-head-end{
         display: none;
     }
-
+    .masonry{
+        column-count: 2;
+        column-gap: 1em;
+    }
 }
 @media screen and (max-width: 700px){
     .wrapper{
@@ -296,6 +316,10 @@
     }
     .galery-head-end{
         display: none;
+    }
+    .masonry{
+        column-count: 3;
+        column-gap: 1em;
     }
 }
 @media screen and (max-width: 900px){

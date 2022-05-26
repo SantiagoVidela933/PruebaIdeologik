@@ -5,19 +5,17 @@ html, *{
 }
 body{
     background-color: rgb(18, 18, 18);
-    overflow-x: hidden;
-    scroll-behavior: smooth;
-}
-.wrapper{
-    width: 100%;
+    /* overflow-x: hidden;
+    scroll-behavior: smooth; */
+    width: 1040px;
     margin: 0 154px;
 }
-
+/* Encabezado */
 .header{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
     width: 100%;
     height: 70px;
     padding-top: 10px;
@@ -40,7 +38,7 @@ body{
     list-style: none;
     display: inline-block;
     border-right: 5px solid rgb(18, 18, 18);
-    
+
 }
 .menu-list-li_a{
     padding: 5px 1.1rem;
@@ -79,8 +77,6 @@ body{
     font-size: 13px;
 
 }
-
-
 .container-login{
     display: flex;
     justify-content: center;
@@ -96,7 +92,7 @@ body{
     font-size: 14px;
 }
 .userIcon{
-    color: rgb(255,255,255);  
+    color: rgb(255,255,255);
     padding: 9px 16px;
     background-color: rgb(89, 86, 86);
     font-size: 14px;
@@ -104,6 +100,7 @@ body{
 .container-responsive{
     display: none;
 }
+/* Sección de busqueda */
 .search{
     display: flex;
     justify-content: center;
@@ -125,7 +122,7 @@ body{
     position: relative;
     background-size: 400%;
     animation: change 3s ease-in-out infinite;
- 
+
 }
 @keyframes change {
     0%{
@@ -172,7 +169,7 @@ body{
     background-color: rgb(54, 53, 53);
     ;
 }
-.spanSearch_a{ 
+.spanSearch_a{
     color: rgb(255, 255, 255);
     font-weight: bold;
     text-decoration: none;
@@ -180,7 +177,7 @@ body{
 .spanSearch_a:hover{
     color: rgb(0, 255, 187);
 }
-
+/* Sección de Giphy Clips */
 .giphy-clips{
     display: flex;
     flex-direction: column;
@@ -239,14 +236,12 @@ body{
 .button-gif{
     background: linear-gradient(-135deg, rgb(74, 144, 226) 0%, rgb(148, 56, 255) 100%);
 }
-
 .galery-head-end{
     margin-top: 1.5rem;
 }
 .galery-head-end_h5{
     font-size: 14px;
     color: rgb(62, 60, 60);
-
 }
 .galery-head-end_h5 span{
     font-weight: bold;
@@ -256,9 +251,10 @@ body{
 .galery-head_responsive{
     display: none;
 }
+/* Galería de Gifs */
 .masonry{
     column-count: 4;
-    
+    column-gap: 1em;
 }
 .item{
     display: inline-block;
@@ -270,57 +266,3 @@ body{
     object-fit: contain;
     margin: .4rem 0;
 }
-
-
-
-
-
-
-/* .galery-gifs{
-    display: grid;
-    width: 100%;
-    grid-template-columns: repeat(auto-fill,minmax(180px,1fr));
-    gap: 15px;
-    grid-auto-flow: dense;
-}
-.galery-gifs:nth-child(1n){
-    height: 7rem;
-}
-.galery-gifs:nth-child(2n){
-    height: 8rem;
-
-}
-.galery-gifs:nth-child(3n){
-    height: 9rem;
-
-}
-.galery-gifs:nth-child(4n){
-    height: 5rem;
-
-}
-
-.galery-gifs:nth-child(5n){
-    
-}
-.grid-gif{
-    display: flex;
-    width: 100%;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
-    
-    border-radius: 4px;
-
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    object-fit: cover;
-
-}
-.wide{
-    grid-column: span 2;
-}
-.tall{
-    grid-row: span 2;
-}
- */
