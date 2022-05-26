@@ -208,16 +208,21 @@ body{
 .button2{
     background-color: rgb(89, 86, 86);
 }
-.carousel-videos{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+/* Carrusel */
+.carousel{
+    column-count: 4;
     width: 100%;
 }
-.carousel-videos_vid{
-    border-radius: .2rem;
-    height: 139px;
+.gifs{
+    display: -block;
+    width: 100%;
+    height: 100%;
+}
+.gifs video{
+    border-radius: .4rem;
+    width: 100%;
     object-fit: contain;
+    margin: .4rem 0;
 }
 .galery-head{
     display: flex;
